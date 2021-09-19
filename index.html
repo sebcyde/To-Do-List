@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>To Do List</li>
+
+        </ul>
+    </nav>
+
+    <div class="desccontainer">
+
+        <h1 class="maintitle">To Do List</h1>
+
+        <p class="maindesc">A simple to do list that lets you add and remove list items. You can click the urgent button
+            before pressing 'add' to create an urgent task.</p>
+
+    </div>
+
+    <div class="inputcontainer">
+
+        <form action="submit" class="submitForm">
+            <input type="text" class="input" placeholder="Ex. Wash dishes ">
+
+            <button type="submit" class="addTask">Add</button>
+        </form>
+        <span class="urgency">
+            <label for="id-checkbox">Urgent?</label>
+            <input type="checkbox" id="id-checkbox" />
+        </span>
+
+        <hr>
+
+        <div class="appendme">
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
